@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* White text */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #353535; /* Dark gray */
+    color: #ffffff; /* White */
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .navbar a:hover,
+  .navbar .active {
+    background-color: #3c6e71; /* Teal */
+  }
+  
+  /* Login Section */
+  .login-page {
+    height: 100vh;
+    background: url('https://i.ibb.co/3s0gRQb/chromakopia-tyler-3840x2160-19374.jpg') center/cover no-repeat;
+    background-size: cover;
+     margin: 0;
+  }
+  
+  .login-form {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-form h2 {
+    color: #3c6e71; /* Teal */
+  }
+  
+  .login-form .btn-primary {
+    background-color: #3c6e71; /* Teal */
+    border: none;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .login-form .btn-primary:hover {
+    background-color: #284b63; /* Deep teal */
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 15px;
+    background: #353535; /* Dark gray */
+    color: #ffffff; /* White */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .login-container {
+      padding: 20px;
+    }
+  }

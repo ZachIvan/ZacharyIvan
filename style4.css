@@ -1,0 +1,40 @@
+.artworks-section {
+    background: linear-gradient(to bottom, #ffffff, #d9d9d9);
+    color: #353535;
+  }
+  
+  .artworks-section h2 {
+    color: #3c6e71; /* Teal */
+    font-weight: bold;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    color: #353535;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #284b63;
+  }
+  
+  .btn-teal {
+    background-color: #3c6e71;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .btn-teal:hover {
+    background-color: #284b63;
+    color: #ffffff;
+  }
